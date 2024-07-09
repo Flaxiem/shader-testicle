@@ -1,5 +1,3 @@
-
--- Credits to Instance Serializer for helping me convert the Tokyowami shrine whatever thing to luau
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
@@ -31,13 +29,6 @@ local Inaritaisha = Instance.new("ColorCorrectionEffect")
 Inaritaisha.Name = "Inari taisha"
 Inaritaisha.Saturation = 0.05
 Inaritaisha.TintColor = Color3.fromRGB(255, 224, 219)
-
-Inaritaisha.Parent = game:GetService("Lighting")
-local Normal = Instance.new("ColorCorrectionEffect")
-Normal.Name = "Normal"
-Normal.Enabled = false
-Normal.Saturation = -0.2
-Normal.TintColor = Color3.fromRGB(255, 232, 215)
 
 Normal.Parent = game:GetService("Lighting")
 local SunRays = Instance.new("SunRaysEffect")
